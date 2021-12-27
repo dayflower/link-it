@@ -1,0 +1,15 @@
+{
+  "name": "link-it",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dayflower",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
