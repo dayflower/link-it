@@ -39,7 +39,7 @@ const copyAsMarkdown = () => {
 
   const clipboardEventListener = (e) => {
     e.preventDefault();
-    e.clipboardData.setData('text/plain', `[${title.replace(/([\[\]])/, '\\$1')}](${url})`);
+    e.clipboardData.setData('text/plain', `[${title.replace(/([\[\]])/g, '\\$1')}](${url})`);
   };
 
   document.addEventListener('copy', clipboardEventListener, false);
